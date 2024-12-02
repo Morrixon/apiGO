@@ -20,7 +20,7 @@ func getDBconn() *sql.DB {
 
 //creaTable crea la tabla de usuario si no existe
 
-func creaTable(db *sql.DB) {
+func CreateTable(db *sql.DB) {
 	//Sql para crear la tabla "users"
 	createSQL := `
 	CREATE TABLE IF NOT EXISTS users (
