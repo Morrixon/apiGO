@@ -1,0 +1,19 @@
+# Ignorar archivos de compilacion de GO
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignorar las carpetas y dependencias
+
+/vendor/
+
+# Archivos de configuracion de IDE como VScode
+
+.vscode/
+
+# Archivos de Go Mod
+
+/go.sum
+/go.mod
